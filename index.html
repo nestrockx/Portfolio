@@ -10,16 +10,16 @@
   <script src="jquery.js"></script>
   <script> 
     $(function(){
-      $("#custom_nav_bar").load("nav_bar.html");
+      $("#custom_nav_bar").load("nav_bar.html",
+	    $(this).find('#intro').addClass('active');
+	  );
     });
   </script> 
 </head>
 <body>
 
 <div id="custom_nav_bar"></div>
-<script>
-	document.getElementById("intro").className = "active";
-</script>
+
 
   
 <div class="container">
