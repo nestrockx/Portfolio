@@ -9,18 +9,16 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script> 
     $(function(){
-      $("#custom_nav_bar").load("nav_bar.html");
+      $("#custom_nav_bar").load("nav_bar.html", function(){
+	    $("#intro").addClass("active")
+	  });
     });
-	$("button").click(function(){
-	  $("#intro").addClass("active");
-	});
   </script> 
 </head>
 <body>
 
 <div id="custom_nav_bar"></div>
 
-<button>Add</button>
 
 
   
