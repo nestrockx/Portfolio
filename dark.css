@@ -7,5 +7,6 @@ body {
 }
 
 .container-fluid {
+	padding-left: 60px
 	color: white;
 }
