@@ -11,9 +11,12 @@
     $(function(){
       $("#custom_nav_bar").load("nav_bar.html", function(){
 	    $(this).find('#machine_learning').addClass('active');
-	  }); 
+	  });
     });
-  </script> 
+	$(function(){
+      $("#content").load("machine_learning_content.html");
+	});
+  </script>
 </head>
 <body>
 
